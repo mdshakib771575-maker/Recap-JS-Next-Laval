@@ -22,9 +22,28 @@ let number = [10, 10, 10, 10, 10]
 // }
 // console.log(sum)
 
-let i = 0
+// let i = 0
 
-while (i<=number.length-1){
-    console.log(number[i])
-    i++
+// while (i<=number.length-1){
+//     console.log(number[i])
+//     i++
+// }
+let numbers = [10, 15, 20, 25, 30]
+// let sum = 0
+// for(let num of numbers){
+//     // console.log(num)
+
+//       sum+=num
+
+// }
+// console.log(sum)
+
+
+// const avg = sum /numbers.length
+// console.log(avg)
+
+const renum = [];
+for (let i = numbers.length - 1; i >= 0; i--) {
+    renum.push(numbers[i])
 }
+console.log(renum)
